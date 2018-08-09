@@ -1,9 +1,10 @@
+// Package raindrops exposes the Convert function
 package raindrops
 
 import "strconv"
 
-// Convert takes in an integer and returns a string
-// based on the factor of said integer
+// Convert takes in an integer and conditionally returns a string
+// based on the factors of said integer
 func Convert(n int) string {
 	var reply string
 
